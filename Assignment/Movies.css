@@ -49,8 +49,8 @@
     
 }
 
-/*Foods Page*/
-#foods{
+/*Movies Page*/
+#movies{
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
@@ -61,7 +61,7 @@
     color: white;
     
 }
-#foods::before{
+#movies::before{
     content: "";
     position: absolute;
     top: 0;
@@ -72,6 +72,7 @@
     z-index: -1;
     opacity: .8;
 }
+
 
 #pic1{
     display: flex;
@@ -84,7 +85,7 @@
     height: 200px;
 }
 
-#tinola{
+#titanic{
     display: flex;
     flex-direction: column;
     text-align: justify;
@@ -92,11 +93,10 @@
     align-items: center;
 }
 
-#tinola h2{
+#titanic h2{
     font-size: 2rem;
     margin-bottom: 20px;
 }
-
 
 #pic2{
     display: flex;
@@ -109,7 +109,7 @@
     height: 200px;
 }
 
-#sinigang{
+#saw{
     display: flex;
     flex-direction: column;
     text-align: justify;
@@ -117,10 +117,11 @@
     align-items: center;
 }
 
-#sinigang h2{
+#saw h2{
     font-size: 2rem;
     margin-bottom: 20px;
 }
+
 
 #pic3{
     display: flex;
@@ -133,7 +134,7 @@
     height: 200px;
 }
 
-#caldereta{
+#st{
     display: flex;
     flex-direction: column;
     text-align: justify;
@@ -141,55 +142,7 @@
     align-items: center;
 }
 
-#caldereta h2{
+#st h2{
     font-size: 2rem;
     margin-bottom: 20px;
 }
-
-#pic4{
-    display: flex;
-    text-align: justify;
-    padding: 10px;
-}
-
-#pic4 img{
-    width: 375px;
-    height: 200px;
-}
-
-#chicken{
-    display: flex;
-    flex-direction: column;
-    text-align: justify;
-    padding: 10px;
-    align-items: center;
-}
-
-#chicken h2{
-   font-size: 2rem;
-    margin-bottom: 20px;
-} 
-
-#pic5{
-    display: flex;
-    text-align: justify;
-    padding: 10px;
-}
-
-#pic5 img{
-    width: 375px;
-    height: 200px;
-}
-
-#fish{
-    display: flex;
-    flex-direction: column;
-    text-align: justify;
-    padding: 10px;
-    align-items: center;
-}
-
-#fish h2{
-   font-size: 2rem;
-    margin-bottom: 20px;
-} 
