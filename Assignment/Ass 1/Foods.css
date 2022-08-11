@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navbar */
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: sticky;
+    top: 0;
+}
+
+.navbar ul{
+    display: flex;
+    list-style: none;
+    margin: 20px 0px;
+
+}
+
+.navbar ul li{
+    font-family: century;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 8px 25px;
+    transition: all 5.s ease;
+}
+
+.navbar ul li a:hover{
+    background-color:white;
+    color: black;
+    box-shadow: 0 0 10px white;
+
+}
+
+.headings{
+    font-family: century;
+    font-size: 3rem;
+    text-align: center;
+    padding: 20px;
+    
+}
+
+/*Foods Page*/
+#foods{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 70px;
+    margin-bottom: 0px;
+    background-color: rgba(0, 0, 0, 10);
+    
+    color: white;
+    
+}
+#foods::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: url('BG.jpg');
+    height: auto;
+    width: 100%;
+    z-index: -1;
+    opacity: .8;
+}
+
+#pic1{
+    display: flex;
+    text-align: justify;
+    padding: 10px;
+}
+
+#pic1 img{
+    width: 375px;
+    height: 200px;
+}
+
+#tinola{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    padding: 10px;
+    align-items: center;
+}
+
+#tinola h2{
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+
+#pic2{
+    display: flex;
+    text-align: justify;
+    padding: 10px;
+}
+
+#pic2 img{
+    width: 375px;
+    height: 200px;
+}
+
+#sinigang{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    padding: 10px;
+    align-items: center;
+}
+
+#sinigang h2{
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+#pic3{
+    display: flex;
+    text-align: justify;
+    padding: 10px;
+}
+
+#pic3 img{
+    width: 375px;
+    height: 200px;
+}
+
+#caldereta{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    padding: 10px;
+    align-items: center;
+}
+
+#caldereta h2{
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+#pic4{
+    display: flex;
+    text-align: justify;
+    padding: 10px;
+}
+
+#pic4 img{
+    width: 375px;
+    height: 200px;
+}
+
+#chicken{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    padding: 10px;
+    align-items: center;
+}
+
+#chicken h2{
+   font-size: 2rem;
+    margin-bottom: 20px;
+} 
+
+#pic5{
+    display: flex;
+    text-align: justify;
+    padding: 10px;
+}
+
+#pic5 img{
+    width: 375px;
+    height: 200px;
+}
+
+#fish{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    padding: 10px;
+    align-items: center;
+}
+
+#fish h2{
+   font-size: 2rem;
+    margin-bottom: 20px;
+} 
