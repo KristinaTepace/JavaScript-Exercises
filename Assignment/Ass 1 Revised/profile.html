@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile</title>
+    <link rel="stylesheet" href="profile.css">
+    <script src="profile.js"></script>
+</head>
+<body onload="loadInfo()" id="home">
+    <div id="infoContainer">
+        <h1 id="displayName">Name</h1>
+        <h2 id="displayCareer">Career</h2>
+        <button onclick="toggleMoreInfo()">Learn more</button>
+    </div>
+
+    <div id="moreInfoContainer">
+        <ul id="hobbiesList">Hobbies</ul>
+        <ul id="favfoodList">Favorite Food</ul>
+        <ul id="favseriesList">Favorite Series</ul>
+        <ul id="favmoviesList">Favorite Movies</ul>
+    </div>
+</body>
+</html>

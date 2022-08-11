@@ -1,0 +1,41 @@
+#home{
+    padding-top: 10%;
+    align-items: center;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#home::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: url('BG.jpg') no-repeat center center/cover;
+    height: 900px;
+    width: 100%;
+    z-index: -1;
+    opacity: .8;
+}
+
+input, button{
+    align-items:  center;
+    font-size: 3rem;
+    
+}
+
+#demoInput{
+    font-family: century;
+    
+}
+
+#displayTitle{
+    font-family: century;
+    font-size: 3rem;
+    text-align: center;
+    color: white;
+}
+
+.main{
+    align-items: center;
+    
+}
