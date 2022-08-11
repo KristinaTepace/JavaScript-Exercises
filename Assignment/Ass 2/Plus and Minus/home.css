@@ -20,12 +20,6 @@
 input, button{
     align-items:  center;
     font-size: 3rem;
-    
-}
-
-#demoInput{
-    font-family: century;
-    
 }
 
 #displayTitle{
@@ -37,5 +31,6 @@ input, button{
 
 .main{
     align-items: center;
-    
+    font-family: century;
+
 }
